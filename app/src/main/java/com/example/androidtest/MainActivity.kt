@@ -40,6 +40,13 @@ class MainActivity : AppCompatActivity() {
             counter++
             refresh()
         }
+
+        downButton.setOnClickListener(){
+            if(counter > 0){
+                counter--
+                refresh()
+            }
+        }
     }
 
     fun refresh(){
