@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+        // The Toolbar defined in the layout has the id "my_toolbar".
+        setSupportActionBar(findViewById(R.id.my_toolbar))
 
         textViewCounter = findViewById(R.id.textViewCounter)
         val UpButton = findViewById<Button>(R.id.buttonUp)
@@ -108,10 +110,15 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.restore_counter -> {
-                // kod za 19. zadatak
-                true
+                counter = 0
+                textViewCounter.text = counter.toString()
+                return true
             }
         }
         return super.onOptionsItemSelected(item)
     }
+    class MyActivity : AppCompatActivity() {
+        // ...
+    }
+
 }
