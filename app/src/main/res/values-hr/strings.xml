@@ -1,10 +1,16 @@
 <resources>
     <string name="textview">TextView</string>
     <string name="up">DODAJ</string>
-    <string name="down">ODUZMI</string>
+    <string name="down">SMANJI</string>
     <string name="name">Ime:</string>
-    <string name="name_success">Ime</string>
+    <string name="name_success">Uspjesno_ime</string>
     <string name="resetiraj">Resetiraj</string>
     <string name="hrvatski">Hrvatski</string>
     <string name="engleski">Engleski</string>
+
+    <string name="success">%1$s, uspješno ste postigli 10 koraka!</string>
+    <string name="sms_message_en" translatable="false">%1$s just finished running and completed 10 steps! 🏃‍♂️💪</string>
+    <string name="sms_message_hr">%1$s, je upravo završio s trčanjem i prešao 10 koraka! 🏃‍♂️💪</string>
+    <string name="name_hint_en">Unesite ime</string>
+    <string name="delete">Izbrisi</string>
 </resources>
