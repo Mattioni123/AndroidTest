@@ -61,10 +61,10 @@ class SuccessActivity : AppCompatActivity() {
         btnSendSMS.setOnClickListener {
             // Odabir broja telefona
             val selectedPhoneNumber = when (phoneNumberRadioGroup.checkedRadioButtonId) {
-                R.id.radioNumber1 -> "0917829521"
+                R.id.radioNumber1 -> "0953799664"
                 R.id.radioNumber2 -> "0998765432"
                 R.id.radioNumber3 -> "0951234567"
-                else -> "0917829521"  // Zadani broj
+                else -> "0953799664"  // Zadani broj
             }
 
             // Dohvaćanje trenutnog jezika
